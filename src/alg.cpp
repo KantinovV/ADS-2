@@ -1,7 +1,6 @@
 // Copyright 2022 NNTU-CS
 #include <cstdint>
 #include "alg.h"
-using namespace std;
 double pown(double value, uint16_t n) {
  double pow = value;
  if (n == 0) {
@@ -48,6 +47,4 @@ double cosn(double x, uint16_t count) {
  }
  return res;
 }
-int main() {
- cout << expn(1.0, 2) << endl;
-}
+
